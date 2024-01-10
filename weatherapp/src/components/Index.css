@@ -1,0 +1,74 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+
+
+.container {
+    padding: 16.5px 12px;
+    border-radius: 5px;
+    width: 150px;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    line-height: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+
+.span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #999;
+}
+
+.icon {
+    margin-right: 5px;
+    font-size: 15px;
+}
+
+
+.h3 {
+    margin: 30px 0;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.par {
+    font-size: 10px;
+}
+
+@media (max-width: 767px) {
+    .container {
+        width: 100px; 
+        height: 70px; 
+        padding: 5px; 
+    }
+    .span {
+        font-size: 10px;
+    }
+    .icon {
+        font-size: 10px;
+    }
+    
+    
+    .h3 {
+        margin: 15px 0;
+        font-size: 15px;
+        letter-spacing: 1px;
+        font-weight: 500;
+    }
+    
+    .par {
+        font-size: 7px;
+    }
+}
